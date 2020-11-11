@@ -6,9 +6,7 @@
 
 **1.** What is the **order** of the following transfer function?
 
-$$
-G(s) = \frac{s - 10}{s^2 + 2s + 1}
-$$
+<img src = "../Images/Q1_eq.png">
 
 **Ans :** This is the second order transfer function
 
@@ -16,9 +14,7 @@ $$
 
 **2.** What are the **poles and zeros** of the following transfer function?
 
-$$
-G(s) = \frac{s^2 + 3s - 10}{s^2 - s - 12}
-$$
+<img src = "../Images/Q2_eq.png">
 
 **Ans :** The poles are -3 and 4; the zeros are 2 and -5
 
@@ -31,25 +27,23 @@ $$
 - [ ] Increase Kd
 - [ ] Decrease Ki
 - [x] Increase Kp
-- [x] Increase Ki
 - [ ] Decrease Kp
 - [ ] Decrease Kd
+- [x] Increase Ki
 
 <br><br>
 
 **4.** Recall the Mass-Spring-Damper System example form the video on PID Control.  This system is shown in the figure below.
 
-<img src = "../Images/image_q5_1.png">
+<img src = "../Images/image_q4_1.png">
 
 As a system control engineer, you constructed the following closed loop transfer function to represent the Mass-Spring-Damper System. What is the **correct transfer function** for this closed loop?
 
-<img src = "../Images/image_q5_2.png">
+<img src = "../Images/image_q4_2.png">
 
 **Ans :** 
 
-$$
-G(s) = \frac{K_Ds^2 + sK_P + K_I}{ms^3 + (b + K_D)s^2 + (k + K_P)s + K_I}
-$$
+<img src = "../Images/Q4_ans.png">
 
 <br><br>
 
@@ -65,10 +59,11 @@ $$
 
 **Ans :** 
 
-- [ ] Reference Velocity
 - [x] Throttle angle
-- [ ] Steering angle
 - [x] Brake Position
+- [ ] Reference Velocity
+- [ ] Steering angle
+
 
 <br><br>
 
@@ -101,8 +96,8 @@ $$
 **Ans :** 
 
 - [x] Disturbances
-- [ ] Nonlinear engine map
 - [x] Errors in the plant model
+- [ ] Nonlinear engine map
 - [ ] High level controller simplification: changing the integral to a summation over fixed length time steps in the Integral term
 
 <br><br>
@@ -122,12 +117,13 @@ $$
 
 **Ans :** 
 
-- [ ] Sliding resistance
 - [x] Aerodynamic resistance
+- [ ] Sliding resistance
+- [x] Gravitational resistance
 - [ ] Cornering force
 - [ ] Static friction
 - [x] Rolling resistance
-- [x] Gravitational resistance
+
 
 <br><br>
 
