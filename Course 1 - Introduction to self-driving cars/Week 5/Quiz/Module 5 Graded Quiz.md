@@ -39,11 +39,11 @@ $$
 
 **4.** Recall the Mass-Spring-Damper System example form the video on PID Control.  This system is shown in the figure below.
 
-<img src = "Images/image_q5_1.png">
+<img src = "../Images/image_q5_1.png">
 
 As a system control engineer, you constructed the following closed loop transfer function to represent the Mass-Spring-Damper System. What is the **correct transfer function** for this closed loop?
 
-<img src = "Images/image_q5_2.png">
+<img src = "../Images/image_q5_2.png">
 
 **Ans :** 
 
@@ -55,7 +55,7 @@ $$
 
 **5.** You are given the step response of a few different PID controllers using the same gains for the same first order transfer function. **Determine a possible set of controllers** that generated these step responses:
 
-<img src = "Images/Full-Size-Image.png">
+<img src = "../Images/Full-Size-Image.png">
 
 **Ans :** 1st response by PD; 2nd response by PID; 3rd response by PI  
 
@@ -74,7 +74,7 @@ $$
 
 **7.** Based on the engine map in the figure below, **determine the throttle angle** needed to produce 250 ft-lb of torque given that the current engine speed is 3500 RPM.
 
-<img src = "Images/image_q10.png">
+<img src = "../Images/image_q10.png">
 
 **Ans :** 60
 
@@ -82,7 +82,7 @@ $$
 
 **8.** The results of a simulation of the control response to a step change in desired speed of adynamic vehicle model with a PID controller are shown in the figures below. There are two spikes on these figures: one spike is between 2 and 3 seconds, another spike is between 3 and 4 seconds. **What is the reason of these spikes?**
 
-<img src = "Images/image_q11.png">
+<img src = "../Images/image_q11.png">
 
 **Ans :** Nonlinear engine map
 
@@ -90,7 +90,7 @@ $$
 
 **9.** What type of **control system** is shown in the figure below?
 
-<img src = "Images/Openloop.png">
+<img src = "../Images/Openloop.png">
 
 **Ans :** Feedforward control
 
@@ -133,6 +133,6 @@ $$
 
 **13.** A vehicle is being operated on a highway with the reference velocity of 126 km/h (35 m/s) in gear 4 and it overcomes the total load torque of 300 ft-lb. This vehicle specification includes effective wheel radius of 0.35 m and 4th gear ratio of 2. **What throttle angle** is required for maintaining the the current speed of the vehicle? 
 
-<img src = "Images/image_q10.png">
+<img src = "../Images/image_q10.png">
 
 **Ans :** 70
