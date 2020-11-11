@@ -1,7 +1,5 @@
 # MODULE 5 : GRADED QUIZ
 
----
-
 <br><br>
 
 **1.** What is the **order** of the following transfer function?
