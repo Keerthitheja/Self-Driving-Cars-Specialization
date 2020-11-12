@@ -10,13 +10,13 @@ MODULE 6 : GRADED QUIZ
 - [x] Track straight line segment
 
 
-- [] Track waypoints
+- [ ] Track waypoints
 
 
-- [] Track parameterized curves
+- [ ] Track parameterized curves
 
 
-- [] None of the above
+- [ ] None of the above
 
 
 ```
