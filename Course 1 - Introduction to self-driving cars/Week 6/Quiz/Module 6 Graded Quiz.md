@@ -1,4 +1,4 @@
-#MODULE 6 : GRADED QUIZ
+# MODULE 6 : GRADED QUIZ
 
 
 <br><br>
@@ -20,7 +20,9 @@
 
 
 ```
-Correct! The easiest approach is to define a sequence of straight line segments, by requiring a sequence of endpoint vertices that are connected linearly. This path definition can be very compact and easy to construct, assuming points are well spaced and the environment allows for mostly straight line motion.
+Correct! The easiest approach is to define a sequence of straight line segments, by requiring a sequence of endpoint vertices 
+that are connected linearly. This path definition can be very compact and easy to construct, assuming points are well spaced 
+and the environment allows for mostly straight line motion.
 ```
 
 <br><br>
@@ -104,10 +106,11 @@ with a pure pursuit controller where ld is assigned as a function of vehicle spe
 - [ ] None of the above
 
 ```
-Correct! The pursuit controller with a fixed value of ld does not take into account the vehicle speed. This means that the selected 
-steering angle would be the same regardless of whether the vehicle is going 10 km/h or 100 km/h, leading to very different lateral accelerations. 
-A controller tuned for high speed would be far to sluggish at low speed, and one tuned for low speed would be dangerously aggressive at high speed. 
-To overcome this limitation, we define the lookahead distance to increase proportional to vehicle forward speed
+Correct! The pursuit controller with a fixed value of ld does not take into account the vehicle speed. This means that the 
+selected steering angle would be the same regardless of whether the vehicle is going 10 km/h or 100 km/h, leading to very 
+different lateral accelerations. A controller tuned for high speed would be far to sluggish at low speed, and one tuned for
+low speed would be dangerously aggressive at high speed. To overcome this limitation, we define the lookahead distance to 
+increase proportional to vehicle forward speed
 ```
 <br><br>
 
@@ -149,7 +152,7 @@ Correct! This is a major component of the Stanley controller that differs it fro
 ```
 Correct! Solving the differential equation of the crosstrack error dynamic results in the following function
 ```
- <img src = "../Images/Q8_eq_ans.png">
+ <img src = "../Images/Q8_eq.png">
 ```
   and this function is plotted above
 ```
@@ -179,16 +182,16 @@ Next, using the given values we get:
 - [x] MPC works for both linear and nonlinear models
 
 ```
-Correct! The controller can be explicitly applied to the linear or nonlinear models of the vehicle and its subsystems, meaning that 
-we can use the same approach even as our models change or improve over time.
+Correct! The controller can be explicitly applied to the linear or nonlinear models of the vehicle and its subsystems, 
+meaning that we can use the same approach even as our models change or improve over time.
 ```
 
 - [x] MPC can impose constraints on the states and the input simultaneously
 
 ```
-Correct! The states and control signals in MPC can be constrained to stay within safe operating bounds, and controls can be selected 
-to maximize multiple objectives simultaneously. Both hard constraints and soft penalties can be employed, leading to a rich set of 
-solutions for constrained control problems.
+Correct! The states and control signals in MPC can be constrained to stay within safe operating bounds, and controls can be 
+selected to maximize multiple objectives simultaneously. Both hard constraints and soft penalties can be employed, leading 
+to a rich set of solutions for constrained control problems.
 ```
 
 - [x] The formulation of an MPC controller is straightforward
@@ -237,15 +240,15 @@ Correct! No closed form solution exists for a nonlinear dynamic model, and so we
 - [x] Longitudinal forces
 
 ```
-Correct! The Model Predictive Control takes the reference path, velocity and the vehicle states at each time step as an input and 
-outputs the longitudinal force needed to follow the desired trajectory.
+Correct! The Model Predictive Control takes the reference path, velocity and the vehicle states at each time step as an 
+input and outputs the longitudinal force needed to follow the desired trajectory.
 ```
 
 - [x] Lateral forces
 
 ```
-Correct! The Model Predictive Control takes the reference path, velocity and the vehicle states at each time step as an input and 
-outputs the lateral force needed to follow the desired trajectory.
+Correct! The Model Predictive Control takes the reference path, velocity and the vehicle states at each time step as an 
+input and outputs the lateral force needed to follow the desired trajectory.
 ```
 
 - [ ] None of the above
