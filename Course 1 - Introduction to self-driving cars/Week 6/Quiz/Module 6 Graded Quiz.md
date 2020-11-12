@@ -114,7 +114,7 @@ increase proportional to vehicle forward speed
 ```
 <br><br>
 
-**7. ** What are **major components** of the Stanley controller?  (Select all that apply)
+**7.** What are **major components** of the Stanley controller?  (Select all that apply)
 
 **Ans :** 
 
@@ -144,22 +144,27 @@ Correct! This is a major component of the Stanley controller that differs it fro
 
 <br><br>
 
-**8. ** **What is the correct figure** of the crosstrack error dynamics for a small error value(where e′(t)=−ke(t)) ?
+**8.** **What is the correct figure** of the crosstrack error dynamics for a small error value(where e′(t)=−ke(t)) ?
 
 **Ans :**
 
 <img src = "../Images/Q8_ans.png">
+
 ```
 Correct! Solving the differential equation of the crosstrack error dynamic results in the following function
+
 ```
+
  <img src = "../Images/Q8_eq.png">
+
 ```
   and this function is plotted above
+
 ```
 
 <br><br>
 
-**9. ** **What is the value of the crosstrack error**, governed by the ODE e′(t)=−ke(t), at t=2 given that e(0)=4 and k=1?
+**9.** **What is the value of the crosstrack error**, governed by the ODE e′(t)=−ke(t), at t=2 given that e(0)=4 and k=1?
 
 **Ans :** 0.54
 
@@ -167,14 +172,16 @@ Correct! Solving the differential equation of the crosstrack error dynamic resul
 Correct! Solving the differential equation of the crosstrack error results in the following function:
 ```
  <img src = "../Images/Q9_eq1_ans.png">
+
 ```
 Next, using the given values we get:
 ```
+
 <img src = "../Images/Q9_eq2_ans.png">
 
 <br><br>
 
-**10. ** Which of the statements below about Model Predictive Control (MPC) are **TRUE**? (Select all that apply)
+**10.** Which of the statements below about Model Predictive Control (MPC) are **TRUE**? (Select all that apply)
 
 **Ans :** 
 
@@ -189,23 +196,23 @@ meaning that we can use the same approach even as our models change or improve o
 - [x] MPC can impose constraints on the states and the input simultaneously
 
 ```
-Correct! The states and control signals in MPC can be constrained to stay within safe operating bounds, and controls can be 
-selected to maximize multiple objectives simultaneously. Both hard constraints and soft penalties can be employed, leading 
-to a rich set of solutions for constrained control problems.
+Correct! The states and control signals in MPC can be constrained to stay within safe operating bounds, and controls 
+can be selected to maximize multiple objectives simultaneously. Both hard constraints and soft penalties can be employed,
+leading to a rich set of solutions for constrained control problems.
 ```
 
 - [x] The formulation of an MPC controller is straightforward
 
 ```
-Correct! The formulation of an MPC controller is straightforward, requiring the definition of an objective function and relevant 
-constraints that are then optimized using well-established solvers
+Correct! The formulation of an MPC controller is straightforward, requiring the definition of an objective function 
+and relevant constraints that are then optimized using well-established solvers
 ```
 - [ ] MPC is an optimized version of Receding Horizon Control
 
 
 <br><br>
 
-**11. ** What is the typical way of finding the solution for a **nonlinear vehicle dynamics model** given an input function?
+**11.** What is the typical way of finding the solution for a **nonlinear vehicle dynamics model** given an input function?
 
 **Ans :**
 
@@ -222,11 +229,12 @@ constraints that are then optimized using well-established solvers
 - [ ] None of the above
 
 ```
-Correct! No closed form solution exists for a nonlinear dynamic model, and so we rely on numerical optimization to find a solution.
+Correct! No closed form solution exists for a nonlinear dynamic model, and so we rely on numerical optimization 
+to find a solution.
 ```
 <br><br>
 
-**12. ** What is the output of the **Model Predictive Controller** described in this course? (Select all that apply)
+**12.** What is the output of the **Model Predictive Controller** described in this course? (Select all that apply)
 
 **Ans :** 
 
