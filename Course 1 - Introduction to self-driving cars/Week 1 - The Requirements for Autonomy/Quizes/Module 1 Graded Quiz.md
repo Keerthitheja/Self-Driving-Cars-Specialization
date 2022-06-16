@@ -189,13 +189,13 @@ Your vehicle follows the truck and maintains a constant distance away. What kind
 
 Assume the car is driving on the right-hand side of the road. Your vehicle is denoted in orange.
 
-<img src = 'Images/Scenario_4.png'>
+<img src = '../Images/Scenario_4.png'>
 
 You see a  construction site where the workers are repaving a road full of  potholes. They are using jackhammers which can cause dust clouds.
 
 You  create the following decision tree for getting through the construction  site. From the diagram, which of the following decisions should you  make? **(green is true, red is false)** 
 
-<img src = 'Images/flowchart.png'>
+<img src = '../Images/flowchart.png'>
 
 **Ans : ** 
 
@@ -229,7 +229,7 @@ You  create the following decision tree for getting through the construction  si
 
 **17.** **Scenario 5:** You’re finished work and need to drive back home, but it’s nighttime.
 
-<img src = 'Images/Scenario_5.jpg'>
+<img src = '../Images/Scenario_5.jpg'>
 
 You plan a new path home on your GPS application to avoid the construction site, **what type of planning is this**?
 
@@ -245,7 +245,7 @@ You plan a new path home on your GPS application to avoid the construction site,
 
 **18.** Your new path goes through a school zone and you see the school zone sign. You decide to slow down despite there being no pedestrians or children (it’s nighttime). What sort of **planning** is this?
 
-<img src = 'Images/Q20.png'>
+<img src = '../Images/Q20.png'>
 
 **Ans : ** 
 
