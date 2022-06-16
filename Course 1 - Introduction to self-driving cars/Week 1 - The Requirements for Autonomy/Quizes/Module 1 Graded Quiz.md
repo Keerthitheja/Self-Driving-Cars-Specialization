@@ -6,7 +6,7 @@
 
 **1.** Scenario 1: You’re at home and need to drive to work
 
-<img src = 'Images/Scenario_1.png'>
+<img src = '../Images/Scenario_1.png'>
 
 During the trip, you will be performing OEDR tasks. Of the tasks below, which of the following is **not** an example of OEDR?
 
@@ -58,7 +58,7 @@ During the trip, you will be performing OEDR tasks. Of the tasks below, which of
 
 You’re approaching an all ways stop sign and you want to make a right turn. Your vehicle is denoted in orange. There are 2 pedestrians currently crossing and another vehicle (denoted in green) approaching the stop sign from the left.
 
-<img src = "Images/Scenario_2.png">
+<img src = "../Images/Scenario_2.png">
 
 This task involves multiple considerations, which of them are **predictive planning**? Select all that apply.
 
@@ -127,7 +127,7 @@ This task involves multiple considerations, which of them are **predictive plann
 
 **10.** **Scenario 3:** You are on the highway and you see a truck in front of you. Assume the car is driving on the right-hand side of the road. There is also a blue car beside the truck in the other lane.
 
-<img src = 'Images/Scenario_3.png'>
+<img src = '../Images/Scenario_3.png'>
 
 Your vehicle follows the truck and maintains a constant distance away. What kind of **control** is this?
 
